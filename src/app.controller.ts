@@ -8,6 +8,7 @@ export class AppController {
   @Get()
   getHello(): string {
     console.log('%cconfiguration/src/app.controller.ts:10 ', 'color: #007acc;');
+    console.log('%cconfiguration/src/app.controller.ts:10 ', 'color: #007acc;');
     return this.appService.getHello();
   }
 }
